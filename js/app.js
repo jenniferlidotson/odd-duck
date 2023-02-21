@@ -45,7 +45,7 @@ function randImage() {
   return allProducts[randProduct];
 }
 
-//3 random images with no repeats 
+//3 random images with no repeats
 function generateUnique() {
   let uniqueNumbers = [];
   while (uniqueNumbers.length < 3) {
