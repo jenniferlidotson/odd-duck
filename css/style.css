@@ -14,13 +14,13 @@
    font-size:2em;
    text-align:center;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
-   background: lightyellow;
+   background: lightgreen;
    padding:20px;
   }
   
   #container{
    text-align: center;
-    height:1500px;
+    height:1255px;
     background: bisque;
   }
 

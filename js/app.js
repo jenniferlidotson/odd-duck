@@ -72,11 +72,13 @@ function showRandomImages() {
   }
 }
 showRandomImages();
+
 //add click
 function addClickHandler(n) {
   let img = document.getElementById(`img-${n}`);
   img.addEventListener('click', onClick);
 }
+
 //remove click
 function onClick(event){
   let id = event.target.id;
@@ -123,7 +125,7 @@ function renderChart(){
 let resultsLists=document.getElementById('results');
 resultsLists.addEventListener('click',renderChart);
 
-//json!
+//JSON
 function save(){
   if (localStorage.getItem('products') === null){
     let stringify = JSON.stringify(allProducts);
